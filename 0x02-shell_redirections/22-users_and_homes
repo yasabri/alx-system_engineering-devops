@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -d ':' -fl,6 /etc/passwd | sort
