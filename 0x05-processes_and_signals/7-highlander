@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script delivers a message "To infinity and beyond indefinitely" along with lines that include the word "bash."
+# on receiving a SIGTERM signal
+trap "echo I am invincible!!!" SIGTERM
+while true; do
+	echo To infinity and beyond
+	sleep 2
+done

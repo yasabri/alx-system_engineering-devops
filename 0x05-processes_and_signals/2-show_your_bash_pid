@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script shows lines from active processes that include bash
+# shellcheck disable=SC2009
+ps -auxf | grep bash
