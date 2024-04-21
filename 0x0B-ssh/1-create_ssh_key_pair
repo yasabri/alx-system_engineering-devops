@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# make a rsa shh key
-ssh-keygen -f school -b 4096 -N betty
+# make a rsa shh
+ssh-keygen -b 4096 -f school -N betty
