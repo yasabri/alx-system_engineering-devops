@@ -1,3 +1,4 @@
-i#!/usr/bin/env bash
-# whoami command the user passed as argument
-sudo -u "$1" whoamii
+#!/usr/bin/env bash
+# accept one argument
+# whoami command under user passed like argument
+sudo -u "$1" 'whoami'
