@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-
-""" 1-main file """
-
 import sys
 
 if __name__ == '__main__':
